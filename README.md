@@ -39,5 +39,7 @@ optional arguments:
   --download_folder    Folder where to download the images.
   
   Example:
-  python downloader.py IMAGE_LIST_FILE.txt --download_folder /home/lab/myfolder/ --num_processes 5
+  python downloader.py train.txt --download_folder /home/lab/myfolder/ --num_processes 5
+  python downloader.py test.txt --download_folder /home/lab/myfolder/ --num_processes 5
+  python downloader.py validation.txt --download_folder /home/lab/myfolder/ --num_processes 5
 ```
