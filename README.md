@@ -16,7 +16,7 @@ Python script that downloads images from CVDF
 ## Get Image IDs
 Create a text file containing all the image IDs that you're interested in downloading
 ```
-$ python image_list.py -c <subclass-names>  -d <class-names>  -p < image-ids>
+$ python image_list.py -c <subclass-names>  -d <class-names>  -p <image-ids>
 
 optional arguments:
   -h, --help           show this help message and exit
@@ -25,6 +25,8 @@ optional arguments:
   -p , --annotation    path to annotations file
 
 Example:
+python image_list.py -c Cattle,Sheep,Goat -d oidv6-class-descriptions.csv -p oidv6-train-images-with-labels-with-rotation.csv
+python image_list.py -c Cattle,Sheep,Goat -d oidv6-class-descriptions.csv -p validation-images-with-rotation.csv
 python image_list.py -c Cattle,Sheep,Goat -d oidv6-class-descriptions.csv -p test-images-with-rotation.csv
 ```
 ## Start Downloading
