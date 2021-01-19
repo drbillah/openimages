@@ -1,5 +1,5 @@
-## File you need to download:
-## General info
+##File you need to download:
+##General info
 This project is simple Lorem ipsum dolor generator.
 - Download the class-descriptions-boxable.csv
   https://storage.googleapis.com/openimages/v6/oidv6-class-descriptions.csv
@@ -8,8 +8,8 @@ This project is simple Lorem ipsum dolor generator.
   wget https://storage.googleapis.com/openimages/2018_04/validation/validation-images-with-rotation.csv
   wget https://storage.googleapis.com/openimages/2018_04/test/test-images-with-rotation.csv
 - Download the file downloader.py (press Ctrl + S), or directly run: 
-## Technologies
+##Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+*Lorem version: 12.3
+*Ipsum version: 2.33
+*Ament library version: 999
