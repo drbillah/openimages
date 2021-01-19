@@ -1,0 +1,8 @@
+## File you need to download:
+- Download the class-descriptions-boxable.csv
+  https://storage.googleapis.com/openimages/v6/oidv6-class-descriptions.csv
+- Download the train-annotations-bbox.csv or test-annotations-bbox.csv or validation-annotations-bbox.csv
+  wget https://storage.googleapis.com/openimages/v6/oidv6-train-images-with-labels-with-rotation.csv
+  wget https://storage.googleapis.com/openimages/2018_04/validation/validation-images-with-rotation.csv
+  wget https://storage.googleapis.com/openimages/2018_04/test/test-images-with-rotation.csv
+- Download the file downloader.py (press Ctrl + S), or directly run: 
